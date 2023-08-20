@@ -10,6 +10,7 @@
 
 # Temporary files
 *.000
+*.lck
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
