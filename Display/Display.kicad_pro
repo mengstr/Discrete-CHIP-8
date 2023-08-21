@@ -55,7 +55,18 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|123793057|103930312|1f9ad39a-61b2-4604-8d2e-3a756be036ee|8a07886a-c414-4a82-86f2-3b2dae0d45d5",
+        "courtyards_overlap|123793057|125269688|9f4e834e-f453-41a9-b057-11e4f4bb280d|c450f793-c1c5-4f02-bb4d-52c39da3e1cc",
+        "courtyards_overlap|123793057|59130312|cbff5c25-dcfb-463a-9a3c-9cee7272a5f3|e3a1509b-5bd9-4116-b48d-301b24e7ffea",
+        "courtyards_overlap|123793057|81530312|aa10ddfc-ef88-4678-a804-9b1825829bd5|f96eb27c-c9db-48b2-aa13-1fa645f20c3f",
+        "courtyards_overlap|146193057|103930312|2f6acb1b-8ab8-4ef0-b9e1-99b501c886a5|526cf58b-70c1-446c-b636-4ae8e6694ae3",
+        "courtyards_overlap|146193057|126330312|c3bf6473-fa9a-4644-b6e1-cbff6e7a5e20|e22b646e-4aa0-4c76-850e-d9c9f3c39e5f",
+        "courtyards_overlap|146193057|59130312|c514f3bb-5b4d-45cb-b527-cd054be3137e|d52973b7-fb06-425e-bc30-5c6163ecb147",
+        "courtyards_overlap|146193057|80469688|7020f3f5-d8d2-4be7-8640-917329a54266|dd71401a-f1e8-41e8-bcb6-a66ac38b748b",
+        "text_thickness|133200000|143800000|3c0683b0-ac07-4b2a-b028-3fc235995486|00000000-0000-0000-0000-000000000000",
+        "text_thickness|133200000|55200000|cc1e04e3-3d07-4adc-8512-ff523f9fe86e|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -65,7 +76,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -194,7 +205,15 @@
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
-    "viewports": []
+    "viewports": [
+      {
+        "h": 14794051.299943335,
+        "name": "OK",
+        "w": 25342276.217840135,
+        "x": 109928861.89117256,
+        "y": 57202974.35002532
+      }
+    ]
   },
   "boards": [],
   "cvpcb": {
@@ -416,7 +435,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Chip-8_Display.kicad_pro",
+    "filename": "Display.kicad_pro",
     "version": 1
   },
   "net_settings": {
